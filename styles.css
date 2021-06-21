@@ -1,8 +1,40 @@
-.face {
-  position: relative;
-  display: inline-block;
+body {
+  margin: 0px;
+  background-color: #fff;
+  font-family: sans-serif;
 }
 
-.face:after {
-  content: "face";
+ul {
+  list-style-type: none;
+  margin: 0 0 0 auto;
+  padding: 12px 0 0;
+  overflow: hidden;
+  width: max-content;
+}
+
+li {
+  display: inline;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+li a {
+  text-align: center;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 0.5rem;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+#app {
+  height: 24px;
+}
+
+#profile-pic {
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 8px;
 }
