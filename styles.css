@@ -1,0 +1,8 @@
+.face {
+  position: relative;
+  display: inline-block;
+}
+
+.face:after {
+  content: "face";
+}
