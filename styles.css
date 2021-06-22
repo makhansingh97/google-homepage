@@ -103,3 +103,26 @@ button:hover {
   border: 1px solid #dadcd0;
   padding: 11px;
 }
+
+/* Footer */
+
+footer {
+  background-color: #f2f2f2;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding-bottom: 8px;
+}
+
+footer hr {
+  border-color: #fcfcfc;
+}
+.footer__leftContainer {
+  display: inline-block;
+  padding-left: 16px;
+}
+
+.footer__rightContainer {
+  float: right;
+  padding-right: 16px;
+}
