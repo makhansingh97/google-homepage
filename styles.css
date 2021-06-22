@@ -4,6 +4,8 @@ body {
   font-family: sans-serif;
 }
 
+/* Header */
+
 ul {
   list-style-type: none;
   margin: 0 0 0 auto;
@@ -26,7 +28,6 @@ li a {
 }
 
 main {
-  /* background-color: red; */
   text-align: center;
 }
 
@@ -51,7 +52,6 @@ input {
 }
 
 .search {
-  /* background-color: yellow; */
   width: 575px;
   margin: 16px auto;
   border-radius: 30px;
