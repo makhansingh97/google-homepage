@@ -126,3 +126,44 @@ footer hr {
   float: right;
   padding-right: 16px;
 }
+
+/* For mobile version */
+
+@media only screen and (max-width: 600px) {
+  .search {
+    width: 70%;
+    margin: 16px auto;
+  }
+
+  input {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  /* footer */
+
+  footer {
+    margin-bottom: -24px;
+    color: #3c4043;
+  }
+
+  footer ul {
+    margin: 0 auto;
+  }
+
+  .footer__leftContainer {
+    display: block;
+  }
+
+  .footer__rightContainer {
+    float: none;
+  }
+
+  .footer__leftContainer ul li {
+    margin: 4px;
+  }
+
+  #howItWorks {
+    display: none;
+  }
+}
