@@ -130,14 +130,27 @@ footer hr {
 /* For mobile version */
 
 @media only screen and (max-width: 600px) {
+  /* search bar */
   .search {
-    width: 70%;
-    margin: 16px auto;
+    width: 90%;
+  }
+
+  .search img {
+    /* max-height: 20px; */
+    height: 20px;
+    max-width: 3%;
+    vertical-align: middle;
+    margin: auto 3px;
   }
 
   input {
-    width: 90%;
-    font-size: 16px;
+    /* width: 100%; */
+    width: 86%;
+    vertical-align: middle;
+  }
+
+  .google-logo {
+    margin-top: 140px;
   }
 
   /* footer */
@@ -166,4 +179,4 @@ footer hr {
   #howItWorks {
     display: none;
   }
-}
+} /* media query ends */
